@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SpringMountain.Api.Exceptions.Spec\SpringMountain.Api.Exceptions.Spec.csproj" />
+      <ProjectReference Include="..\SpringMountain.Framework.Core\SpringMountain.Framework.Core.csproj" />
+      <ProjectReference Include="..\SpringMountain.Framework.Uow\SpringMountain.Framework.Uow.csproj" />
+      <ProjectReference Include="..\SpringMountain.Infrastructure\SpringMountain.Infrastructure.csproj" />
+      <ProjectReference Include="..\SpringMountain.Modularity\SpringMountain.Modularity.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+    </ItemGroup>
+
+</Project>
